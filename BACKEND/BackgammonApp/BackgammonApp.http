@@ -1,0 +1,6 @@
+@BackgammonApp_HostAddress = http://localhost:5125
+
+GET {{BackgammonApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
