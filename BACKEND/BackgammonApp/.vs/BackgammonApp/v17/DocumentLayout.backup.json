@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250423213055_Init4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250423213055_Init4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|c:\\users\\felhasznalo\\desktop\\szakdolgozat\\backend\\backgammonapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250423212714_Init3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250423212714_Init3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|c:\\users\\felhasznalo\\desktop\\szakdolgozat\\backend\\backgammonapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250423211602_Init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250423211602_Init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|c:\\users\\felhasznalo\\desktop\\szakdolgozat\\backend\\backgammonapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250423213055_Init4.cs",
+              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250423213055_Init4.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250423213055_Init4.cs",
+              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250423213055_Init4.cs",
+              "RelativeToolTip": "Migrations\\20250423213055_Init4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T21:30:55.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250423212714_Init3.cs",
+              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250423212714_Init3.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250423212714_Init3.cs",
+              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250423212714_Init3.cs",
+              "RelativeToolTip": "Migrations\\20250423212714_Init3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T21:27:14.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250423211602_Init2.cs",
+              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250423211602_Init2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250423211602_Init2.cs",
+              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250423211602_Init2.cs",
+              "RelativeToolTip": "Migrations\\20250423211602_Init2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T21:16:02.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T14:42:21.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T14:20:27.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T14:18:32.629Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
