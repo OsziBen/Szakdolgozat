@@ -1,4 +1,8 @@
 using BackgammonApp.Data;
+using BackgammonApp.Interfaces.Repositories;
+using BackgammonApp.Interfaces.Services;
+using BackgammonApp.Repositories;
+using BackgammonApp.Services;
 using Microsoft.EntityFrameworkCore;
 using Npgsql;
 
@@ -10,6 +14,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 var baseConnectionString = builder.Configuration.GetConnectionString("ApplicationDbContext");
 var dbPassword = Environment.GetEnvironmentVariable("DB_PASSWORD");
