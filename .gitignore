@@ -52,3 +52,49 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Rider
+.idea/
+
+# Visual Studio user-specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code workspace settings
+.vscode/
+
+# Local history for Visual Studio
+.localhistory/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files by Visual Studio
+Generated_Code/
+
+# Visual Studio profiler
+*.vsp
+*.vspx
+*.sap
+
+# TFS
+$tf/
+
+# Node modules (if you have a frontend too)
+node_modules/
+
+# Others (optional, depending on the project)
+*.dbmdl
+*.bak
+*.backup
+*.sql
