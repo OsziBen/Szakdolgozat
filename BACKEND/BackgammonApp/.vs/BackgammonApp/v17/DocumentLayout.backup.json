@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250423213055_Init4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250423213055_Init4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250428194728_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250428194728_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|c:\\users\\felhasznalo\\desktop\\szakdolgozat\\backend\\backgammonapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250428194431_AddUserDTOs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250428194431_AddUserDTOs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250423212714_Init3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250423212714_Init3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|c:\\users\\felhasznalo\\desktop\\szakdolgozat\\backend\\backgammonapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|c:\\users\\felhasznalo\\desktop\\szakdolgozat\\backend\\backgammonapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|c:\\users\\felhasznalo\\desktop\\szakdolgozat\\backend\\backgammonapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250423211602_Init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250423211602_Init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|c:\\users\\felhasznalo\\desktop\\szakdolgozat\\backend\\backgammonapp\\helpers\\userdtoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|solutionrelative:helpers\\userdtoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|c:\\users\\felhasznalo\\desktop\\szakdolgozat\\backend\\backgammonapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|c:\\users\\felhasznalo\\desktop\\szakdolgozat\\backend\\backgammonapp\\dtos\\user\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|solutionrelative:dtos\\user\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|c:\\users\\felhasznalo\\desktop\\szakdolgozat\\backend\\backgammonapp\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|solutionrelative:interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|c:\\users\\felhasznalo\\desktop\\szakdolgozat\\backend\\backgammonapp\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|solutionrelative:data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|c:\\users\\felhasznalo\\desktop\\szakdolgozat\\backend\\backgammonapp\\dtos\\user\\userreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|solutionrelative:dtos\\user\\userreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|c:\\users\\felhasznalo\\desktop\\szakdolgozat\\backend\\backgammonapp\\dtos\\user\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D521C19-8639-4114-BA03-B6965BFA731C}|BackgammonApp.csproj|solutionrelative:dtos\\user\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,85 +49,143 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 256,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250423213055_Init4.cs",
-              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250423213055_Init4.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250423213055_Init4.cs",
-              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250423213055_Init4.cs",
-              "RelativeToolTip": "Migrations\\20250423213055_Init4.cs",
+              "Title": "20250428194728_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250428194728_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250428194728_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250428194728_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250428194728_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T21:30:55.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250423212714_Init3.cs",
-              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250423212714_Init3.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250423212714_Init3.cs",
-              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250423212714_Init3.cs",
-              "RelativeToolTip": "Migrations\\20250423212714_Init3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T21:27:14.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20250423211602_Init2.cs",
-              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250423211602_Init2.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250423211602_Init2.cs",
-              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250423211602_Init2.cs",
-              "RelativeToolTip": "Migrations\\20250423211602_Init2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T21:16:02.705Z",
+              "WhenOpened": "2025-04-28T19:47:28.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Title": "20250428194431_AddUserDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250428194431_AddUserDTOs.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250428194431_AddUserDTOs.cs",
+              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Migrations\\20250428194431_AddUserDTOs.cs",
+              "RelativeToolTip": "Migrations\\20250428194431_AddUserDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T14:42:21.313Z",
+              "WhenOpened": "2025-04-28T19:44:31.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T19:33:35.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Data\\User.cs",
+              "RelativeDocumentMoniker": "Data\\User.cs",
+              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Data\\User.cs",
+              "RelativeToolTip": "Data\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T18:41:30.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDTOConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Helpers\\UserDTOConverter.cs",
+              "RelativeDocumentMoniker": "Helpers\\UserDTOConverter.cs",
+              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Helpers\\UserDTOConverter.cs",
+              "RelativeToolTip": "Helpers\\UserDTOConverter.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T14:08:11.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Interfaces\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Interfaces\\Services\\IUserService.cs",
+              "RelativeToolTip": "Interfaces\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:56:36.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-23T14:20:27.364Z",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:56:38.595Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 256,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\DTOs\\User\\UserUpdateDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\User\\UserUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\DTOs\\User\\UserUpdateDTO.cs",
+              "RelativeToolTip": "DTOs\\User\\UserUpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T18:41:29.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "UserCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\DTOs\\User\\UserCreateDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\User\\UserCreateDTO.cs",
+              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\DTOs\\User\\UserCreateDTO.cs",
+              "RelativeToolTip": "DTOs\\User\\UserCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T14:18:32.629Z",
+              "WhenOpened": "2025-04-28T18:41:27.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserReadDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\DTOs\\User\\UserReadDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\User\\UserReadDTO.cs",
+              "ToolTip": "C:\\Users\\Felhasznalo\\Desktop\\Szakdolgozat\\BACKEND\\BackgammonApp\\DTOs\\User\\UserReadDTO.cs",
+              "RelativeToolTip": "DTOs\\User\\UserReadDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T18:22:06.341Z",
               "EditorCaption": ""
             }
           ]
