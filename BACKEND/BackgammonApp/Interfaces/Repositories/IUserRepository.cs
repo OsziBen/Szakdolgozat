@@ -2,6 +2,7 @@
 
 namespace BackgammonApp.Interfaces.Repositories
 {
+    /*
     public interface IUserRepository
     {
         Task CreateAsync(User user);
@@ -19,4 +20,5 @@ namespace BackgammonApp.Interfaces.Repositories
         Task<int> SaveChangesAsyc();
 
     }
+    */
 }
