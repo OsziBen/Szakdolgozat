@@ -5,6 +5,7 @@ using BackgammonApp.Interfaces.Services;
 
 namespace BackgammonApp.Services
 {
+    /*
     public class UserService : IUserService
     {
         private readonly IUserRepository _userRepository;
@@ -63,4 +64,5 @@ namespace BackgammonApp.Services
             return userUpdateDTO;
         }
     }
+    */
 }
