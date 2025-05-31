@@ -1,6 +1,9 @@
 using BackgammonApp.Data;
+using BackgammonApp.Endpoints_temp_;
+using BackgammonApp.Extensions;
 using BackgammonApp.Interfaces.Repositories;
 using BackgammonApp.Interfaces.Services;
+using BackgammonApp.Models.User;
 using BackgammonApp.Repositories;
 using BackgammonApp.Services;
 using Microsoft.EntityFrameworkCore;
@@ -11,40 +14,37 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddSwaggerExplorer()
+                .InjectDbContext(builder.Configuration)
+                .AddAppConfig(builder.Configuration)
+                .AddIdentityHandlersAndStores()
+                .ConfigureIdentityOptions()
+                .AddIdentityAuth(builder.Configuration);
 
-var baseConnectionString = builder.Configuration.GetConnectionString("ApplicationDbContext");
-var dbPassword = Environment.GetEnvironmentVariable("DB_PASSWORD");
-
-var connectionStringBuilder = new NpgsqlConnectionStringBuilder(baseConnectionString)
-{
-    Password = dbPassword
-};
-
-var fullConnectionString = connectionStringBuilder.ConnectionString;
-
-
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(fullConnectionString));
+// Dependency Injections (method extensions)
+//builder.Services.AddScoped<IUserRepository, UserRepository>();
+//builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.ConfigureSwaggerExplorer();
 
 app.UseHttpsRedirection();
+//app.UseStaticFiles();
+//app.UseRouting();
 
-app.UseAuthorization();
+app.ConfigCORS(builder.Configuration)
+   .AddIdentityAuthMiddlewares();
 
 app.MapControllers();
+
+app.MapGroup("/api")
+   .MapIdentityApi<AppUser>();
+
+app.MapGroup("/api")
+   .MapIdentityUserEndpoints()
+   .MapAccountEndpoints()
+   .MapAuthorizationEndpoints();
 
 app.Run();

@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BackgammonApp.Repositories
 {
+    /*
     public class UserRepository : IUserRepository
     {
         private readonly ApplicationDbContext _context;
@@ -59,4 +60,5 @@ namespace BackgammonApp.Repositories
             return _context.SaveChangesAsync();
         }
     }
+    */
 }

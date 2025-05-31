@@ -1,4 +1,4 @@
-﻿namespace BackgammonApp.Data
+﻿namespace BackgammonApp.Models.Game
 {
     public class Tournament
     {
