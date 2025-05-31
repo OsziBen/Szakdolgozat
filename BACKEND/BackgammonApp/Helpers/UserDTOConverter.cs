@@ -5,6 +5,7 @@ namespace BackgammonApp.Helpers
 {
     public static class UserDTOConverter
     {
+        /*
         public static List<UserReadDTO> MapToUserReadDTOList(IEnumerable<User> users)
         {
             return users.Select(MapToUserReadDTO).ToList();
@@ -38,5 +39,6 @@ namespace BackgammonApp.Helpers
             user.LastName = dto.LastName;
             user.Age = dto.Age;
         }
+        */
     }
 }
