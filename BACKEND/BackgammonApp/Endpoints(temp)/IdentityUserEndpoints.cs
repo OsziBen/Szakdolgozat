@@ -35,9 +35,10 @@ namespace BackgammonApp.Endpoints_temp_
 
                 if (user != null && await userManager.CheckPasswordAsync(user, loginModel.Password))
                 {
+                    var jwtSecret = appSettings.Value.JWTSecret;
                     var roles = await userManager.GetRolesAsync(user);
                     var signInKey = new SymmetricSecurityKey(
-                        Encoding.UTF8.GetBytes(appSettings.Value.JWTSecret)
+                        Encoding.UTF8.GetBytes(jwtSecret)
                         );
                     ClaimsIdentity claims = new ClaimsIdentity(new Claim[]
                         {
