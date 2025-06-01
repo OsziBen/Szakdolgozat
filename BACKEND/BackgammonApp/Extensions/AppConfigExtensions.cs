@@ -19,6 +19,11 @@ namespace BackgammonApp.Extensions
         {
             services.Configure<AppSettings>(config.GetSection("AppSettings"));
 
+            var appSettings = config.GetSection("AppSettings").Get<AppSettings>();
+
+            if (string.IsNullOrWhiteSpace(appSettings?.JWTSecret))
+                throw new Exception("JWT secret not configured. Please set AppSettings__JWTSecret as an environment variable.");
+            
             return services;
         }
     }
