@@ -40,6 +40,10 @@ namespace BackgammonApp.Extensions
             this IServiceCollection services,
             IConfiguration config)
         {
+            var jwtSecret = config["AppSettings:JWTSecret"];
+            if (string.IsNullOrWhiteSpace(jwtSecret))
+                throw new Exception("JWT secret not configured. Please set AppSettings__JWTSecret as an environment variable.");
+            
             services
             .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             .AddJwtBearer(options =>
@@ -49,8 +53,8 @@ namespace BackgammonApp.Extensions
                 {
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = new SymmetricSecurityKey(
-                        Encoding.UTF8.GetBytes(
-                            config["AppSettings:JWTSecret"]!)),
+                        Encoding.UTF8.GetBytes(jwtSecret/*
+                            config["AppSettings:JWTSecret"]!*/)),
                     ValidateIssuer = false,
                     ValidateAudience = false,
                 };
