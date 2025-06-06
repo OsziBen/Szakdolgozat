@@ -43,7 +43,7 @@ namespace BackgammonApp.Endpoints_temp_
                     ClaimsIdentity claims = new ClaimsIdentity(new Claim[]
                         {
                             new Claim("UserID", user.Id.ToString()),
-                            new Claim("Age", (DateTime.Now.Year - user.DateOfBirth.Year).ToString()),
+                            new Claim("Age", (DateTime.Now.Year - user.DateOfBirth.Year).ToString()),   // felülviszgálni!
                             new Claim(ClaimTypes.Role, roles.First()),
 
                         });
@@ -82,7 +82,8 @@ namespace BackgammonApp.Endpoints_temp_
                     Email = userRegistrationModel.Email,
                     FirstName = userRegistrationModel.FirstName,
                     LastName = userRegistrationModel.LastName,
-                    DateOfBirth = DateOnly.FromDateTime(DateTime.Now.AddYears(-userRegistrationModel.Age)),
+                    DateOfBirth = DateOnly.Parse(userRegistrationModel.DateOfBirth),
+                    CreatedAt = DateTime.UtcNow
                 };
                 var result = await userManager.CreateAsync(
                     user,
