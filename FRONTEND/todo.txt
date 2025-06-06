@@ -1,0 +1,6 @@
+14:54 2025. 06. 06.
+---
+> index.html módosítása! (lang, title, icon, etc.)
+> font-ok módosítása?
+> regisztrációs form pontosítása (username /f-lName)
+> date of birth csak múltbeli dátum ellenőrzés!
