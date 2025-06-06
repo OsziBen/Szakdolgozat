@@ -30,11 +30,11 @@ var app = builder.Build();
 
 app.ConfigureSwaggerExplorer();
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 //app.UseStaticFiles();
 //app.UseRouting();
 
-app.ConfigCORS(builder.Configuration)
+app.ConfigureCORS(builder.Configuration)
    .AddIdentityAuthMiddlewares();
 
 app.MapControllers();
