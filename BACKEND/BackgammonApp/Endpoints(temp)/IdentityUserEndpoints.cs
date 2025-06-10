@@ -42,8 +42,8 @@ namespace BackgammonApp.Endpoints_temp_
                         );
                     ClaimsIdentity claims = new ClaimsIdentity(new Claim[]
                         {
-                            new Claim("UserID", user.Id.ToString()),
-                            new Claim("Age", (DateTime.Now.Year - user.DateOfBirth.Year).ToString()),   // felülviszgálni!
+                            new Claim("userID", user.Id.ToString()),                                    // kisbetűvel kell kezdődnie a fe miatt
+                            new Claim("age", (DateTime.Now.Year - user.DateOfBirth.Year).ToString()),   // felülvizsgálni!
                             new Claim(ClaimTypes.Role, roles.First()),
 
                         });
