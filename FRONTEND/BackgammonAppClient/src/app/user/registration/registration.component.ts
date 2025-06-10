@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { AbstractControl, FormBuilder, FormGroup, ReactiveFormsModule, ValidatorFn, Validators } from '@angular/forms';
 import { FirstKeyPipe } from "../../shared/pipes/first-key.pipe";
 import { AuthService } from '../../shared/services/auth.service';
 import { ToastrService } from 'ngx-toastr';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-registration',
@@ -12,7 +12,7 @@ import { RouterLink } from '@angular/router';
   templateUrl: './registration.component.html',
   styles: ``
 })
-export class RegistrationComponent {
+export class RegistrationComponent implements OnInit {
   form: FormGroup;
   isSubmitted: boolean = false;
 
@@ -31,7 +31,8 @@ export class RegistrationComponent {
   constructor(
     public formBuilder: FormBuilder,
     private service: AuthService,
-    private toastr: ToastrService
+    private toastr: ToastrService,
+    private router: Router
   ){
     this.form = this.formBuilder.group({
       firstName: ['', Validators.required],
@@ -47,6 +48,12 @@ export class RegistrationComponent {
       ]],
       confirmPassword: [''],
     }, {validators: this.passwordMatchValidator});
+  }
+  
+  ngOnInit(): void {
+    if (this.service.isLoggedIn()) {
+      this.router.navigateByUrl('/dashboard');
+    }
   }
 
   onSubmit(){
