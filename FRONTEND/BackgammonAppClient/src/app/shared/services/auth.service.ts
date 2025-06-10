@@ -1,5 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { TOKEN_KEY } from '../constants';
+import { environment } from '../../../environments/environment.development';
 
 @Injectable({
   providedIn: 'root'
@@ -7,15 +9,34 @@ import { Injectable } from '@angular/core';
 export class AuthService {
 
   constructor(private http: HttpClient) { }
-  baseURL = 'http://localhost:5125/api';
 
   createUser(formData: any){
     formData.role = "Admin";  // TEMP!
 
-    return this.http.post(this.baseURL + '/signup', formData)
+    return this.http.post(environment.apiBaseURL + '/signup', formData)
   }
 
   signIn(formData: any){
-    return this.http.post(this.baseURL + '/signin', formData)
-  }  
+    return this.http.post(environment.apiBaseURL + '/signin', formData)
+  }
+
+  isLoggedIn(){
+    return this.getToken() != null ? true : false;
+  }
+
+  saveToken(token: string){
+    localStorage.setItem(TOKEN_KEY, token);
+  }
+
+  getToken(){
+    return localStorage.getItem(TOKEN_KEY);
+  }
+
+  deleteToken(){
+    localStorage.removeItem(TOKEN_KEY);
+  }
+
+  getClaims(){
+    return JSON.parse(window.atob(this.getToken()!.split('.')[1]));
+  }
 }
