@@ -1,0 +1,24 @@
+<nav id="sidebar" class="navbar bg-body-tertiary vh-100 flex-column justify-content-start">
+<div class="container-fluid justify-content-center p-1">
+    <a class="navbar-brand h1 fw-bold text-success mb-3" routerLink="/dashboard">BackgammonApp</a>
+</div>
+<ul class="nav flex-column w-100 ox-3">
+    <li class="nav-item" [appHideIfClaimsNotMet]="claimReq.adminOnly">
+        <a class="nav-link" routerLink="admin-only">Admin Only</a>
+    </li>
+</ul>
+</nav>
+<div id="main">
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid px-5 py-1">
+            <form class="d-flex" role="search">
+                <input type="search" class="form-control me-2" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <button class="btn btn-dark" (click)="onLogout()">Logout</button>
+        </div>
+    </nav>
+    <div class="mt-5 p-5">
+        <router-outlet />
+    </div>
+</div>
