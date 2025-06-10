@@ -1,9 +1,10 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
 import { AuthService } from '../../shared/services/auth.service';
 import { ToastrService } from 'ngx-toastr';
+import { TOKEN_KEY } from '../../shared/constants';
 
 @Component({
   selector: 'app-login',
@@ -11,7 +12,7 @@ import { ToastrService } from 'ngx-toastr';
   templateUrl: './login.component.html',
   styles: ``
 })
-export class LoginComponent {
+export class LoginComponent implements OnInit {
   form: FormGroup;
   isSubmitted: boolean = false;
   
@@ -27,12 +28,18 @@ export class LoginComponent {
     })
   }
 
+  ngOnInit(): void {
+    if (this.service.isLoggedIn()) {
+      this.router.navigateByUrl('/dashboard');
+    }
+  }
+
   onSubmit(){
     this.isSubmitted = true;
     if (this.form.valid) {
       this.service.signIn(this.form.value).subscribe({
         next: (res: any) => {
-          localStorage.setItem('token', res.token);
+          this.service.saveToken(res.token);
           this.router.navigateByUrl('/dashboard');
         },
         error: err => {

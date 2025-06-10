@@ -13,3 +13,8 @@
 > temp value in auth.service.ts!
 > dashboard for frontend!
 > hide password!
+
+22:19 2025. 06. 09.
+---
+> CRUD műveletek (fe + be) + ezekhez megfelelő felületek
+> kell-e session expiration time? (fe: auth.interceptor)

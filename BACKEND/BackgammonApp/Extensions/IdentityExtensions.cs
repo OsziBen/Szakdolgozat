@@ -57,6 +57,8 @@ namespace BackgammonApp.Extensions
                             config["AppSettings:JWTSecret"]!*/)),
                     ValidateIssuer = false,
                     ValidateAudience = false,
+                    ValidateLifetime = true,    // TEMP!
+                    ClockSkew = TimeSpan.Zero   // TEMP!
                 };
             });
 
