@@ -9,7 +9,7 @@ namespace BackgammonApp.Extensions
             IConfiguration config)
         {
             app.UseCors(options =>
-                options.WithOrigins("https://localhost:4200")
+                options.WithOrigins("http://localhost:4200")
                        .AllowAnyMethod()
                        .AllowAnyHeader());
 
