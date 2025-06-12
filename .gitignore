@@ -93,6 +93,14 @@ $tf/
 # Node modules (if you have a frontend too)
 node_modules/
 
+# Sensitive data
+*.key
+*.pem
+*.crt
+*.p12
+*.jks
+*.env
+
 # Others (optional, depending on the project)
 *.dbmdl
 *.bak
