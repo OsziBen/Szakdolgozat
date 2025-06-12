@@ -30,7 +30,7 @@ var app = builder.Build();
 
 app.ConfigureSwaggerExplorer();
 
-//app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 //app.UseStaticFiles();
 //app.UseRouting();
 
