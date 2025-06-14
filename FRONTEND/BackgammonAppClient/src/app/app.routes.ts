@@ -8,6 +8,9 @@ import { MainLayoutComponent } from './layouts/main-layout/main-layout.component
 import { AdminOnlyComponent } from './access/admin/admin-only/admin-only.component';
 import { ForbiddenComponent } from './forbidden/forbidden.component';
 import { claimReq } from './shared/utils/claimReq-utils';
+import { SignalRBackgammonComponent } from './backgammon/signalr.backgammon/signalr.backgammon.component';
+
+
 
 export const routes: Routes = [
     {path: '', redirectTo: '/signin', pathMatch:'full'},
@@ -30,6 +33,10 @@ export const routes: Routes = [
             { path: 'admin-only',
                 component: AdminOnlyComponent,
                 data: {claimReq: claimReq.adminOnly}
+            },
+            { path: 'signalr-backgammon',
+                component: SignalRBackgammonComponent
+
             },
             { path: 'forbidden', component: ForbiddenComponent
             }
