@@ -1,11 +1,13 @@
 using BackgammonApp.Data;
 using BackgammonApp.Endpoints_temp_;
 using BackgammonApp.Extensions;
+using BackgammonApp.Hubs;
 using BackgammonApp.Interfaces.Repositories;
 using BackgammonApp.Interfaces.Services;
 using BackgammonApp.Models.User;
 using BackgammonApp.Repositories;
 using BackgammonApp.Services;
+using Microsoft.AspNetCore.Http.Connections;
 using Microsoft.EntityFrameworkCore;
 using Npgsql;
 
@@ -14,6 +16,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+builder.Services.AddSignalR();
 
 builder.Services.AddSwaggerExplorer()
                 .InjectDbContext(builder.Configuration)
@@ -32,12 +36,18 @@ app.ConfigureSwaggerExplorer();
 
 app.UseHttpsRedirection();
 //app.UseStaticFiles();
-//app.UseRouting();
+app.UseRouting();
 
 app.ConfigureCORS(builder.Configuration)
    .AddIdentityAuthMiddlewares();
 
 app.MapControllers();
+app.MapGroup("/api")
+    .MapHub<BackgammonHub>("/backgammonHub", options => {
+        options.Transports =
+            HttpTransportType.WebSockets |
+            HttpTransportType.LongPolling;
+    });
 
 app.MapGroup("/api")
    .MapIdentityApi<AppUser>();

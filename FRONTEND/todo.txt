@@ -18,3 +18,67 @@
 ---
 > CRUD műveletek (fe + be) + ezekhez megfelelő felületek
 > kell-e session expiration time? (fe: auth.interceptor)
+
+22:18 2025. 06. 14.
+---
+> Bonus Tip: Add Confirmation on Exit
+
+If you want to prevent a user from accidentally leaving, use the CanDeactivate route guard in Angular:
+
+canDeactivate(component: GameComponent): boolean {
+  return confirm('Are you sure you want to leave the game?');
+}
+
+Or in plain JS:
+
+window.addEventListener('beforeunload', (e) => {
+  e.preventDefault();
+  e.returnValue = ''; // Triggers the browser confirmation
+});
+
+(Attach this only while the connection/game is active.)
+
+> 4. Reconnect JWT risk (future-proofing)
+
+If the token expires during reconnection, SignalR won't be able to re-auth. In such cases:
+
+    You may want to refresh the token inside accessTokenFactory, or
+
+    Redirect the user to login if SignalR fails with 401.
+
+Example quick logic in onclose:
+
+this.hubConnection.onclose(error => {
+  if (error?.message.includes('401')) {
+    // Possibly expired token
+    console.warn('Session expired. Redirecting...');
+    this.authService.logout(); // if you have this
+    // this.router.navigate(['/login']);
+  }
+});
+
+> Template Hint (for ul not showing)
+
+You mentioned earlier:
+
+    tho the ul elements are not shown
+
+Make sure your templateUrl includes something like:
+
+<input [(ngModel)]="user" placeholder="User" />
+<input [(ngModel)]="message" placeholder="Message" />
+<button (click)="sendMessage()">Send</button>
+
+<ul>
+  <li *ngFor="let msg of messages">{{ msg }}</li>
+</ul>
+
+If you're using the service's messages, either:
+
+    Expose it with a getter:
+
+get messages() {
+  return this.signalRService.messages;
+}
+
+    Or use the local reactive array (preferred).
