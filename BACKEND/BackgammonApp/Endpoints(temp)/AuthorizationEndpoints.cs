@@ -4,6 +4,7 @@ namespace BackgammonApp.Endpoints_temp_
 {
     public static class AuthorizationEndpoints
     {
+        /*
         public static IEndpointRouteBuilder MapAuthorizationEndpoints(this IEndpointRouteBuilder app)
         {
             app.MapGet("/AdminOnly", AdminOnly);
@@ -16,5 +17,6 @@ namespace BackgammonApp.Endpoints_temp_
         {
             return "Admin only";
         }
+        */
     }
 }
