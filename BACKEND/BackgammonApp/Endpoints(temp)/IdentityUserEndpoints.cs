@@ -17,13 +17,13 @@ namespace BackgammonApp.Endpoints_temp_
     {
         public static IEndpointRouteBuilder MapIdentityUserEndpoints(this IEndpointRouteBuilder app)
         {
-            app.MapPost("/signup", CreateUser);
+            //app.MapPost("/signup", CreateUser);
 
-            app.MapPost("/signin", SignIn);
+            //app.MapPost("/signin", SignIn);
 
             return app;
         }
-
+        /*
         [AllowAnonymous]
         private static async Task<IResult> SignIn(
                     UserManager<AppUser> userManager,
@@ -68,8 +68,8 @@ namespace BackgammonApp.Endpoints_temp_
                     return Results.BadRequest(new { messsage = "Username or Password is incorrect." });
                 }
             }
-        }
-
+        }*/
+        /*
         [AllowAnonymous]
         private static async Task<IResult> CreateUser(
             UserManager<AppUser> userManager,
@@ -96,6 +96,6 @@ namespace BackgammonApp.Endpoints_temp_
                     return Results.BadRequest(result);
 
             }
-        }
+        }*/
     }
 }
