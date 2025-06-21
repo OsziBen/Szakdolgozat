@@ -26,7 +26,14 @@ builder.Services.AddSwaggerExplorer()
                 .ConfigureIdentityOptions()
                 .AddIdentityAuth(builder.Configuration);
 
-// Dependency Injections (method extensions)
+// Dependency Injections (method extensions)    !!!
+builder.Services.AddScoped<IAdminRepository, AdminRepository>();
+builder.Services.AddScoped<IAdminService, AdminService>();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<IAppUserService, AppUserService>();
+builder.Services.AddScoped<IUserRegistrationService, UserRegistrationService>();
+builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 //builder.Services.AddScoped<IUserRepository, UserRepository>();
 //builder.Services.AddScoped<IUserService, UserService>();
 
@@ -53,8 +60,8 @@ app.MapGroup("/api")
    .MapIdentityApi<AppUser>();
 
 app.MapGroup("/api")
-   .MapIdentityUserEndpoints()
-   .MapAccountEndpoints()
-   .MapAuthorizationEndpoints();
+   /*.MapIdentityUserEndpoints()*/
+   /*.MapAccountEndpoints()*/
+   /*.MapAuthorizationEndpoints()*/;
 
 app.Run();
