@@ -13,11 +13,11 @@ export class AuthService {
   createUser(formData: any){
     formData.role = "Admin";  // TEMP!
 
-    return this.http.post(environment.apiBaseURL + '/signup', formData)
+    return this.http.post(environment.apiBaseURL + '/Account/signup', formData)
   }
 
   signIn(formData: any){
-    return this.http.post(environment.apiBaseURL + '/signin', formData)
+    return this.http.post(environment.apiBaseURL + '/Auth/signin', formData)
   }
 
   isLoggedIn(){

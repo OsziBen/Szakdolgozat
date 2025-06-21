@@ -14,6 +14,6 @@ export class UserService {
   ) { }
 
   getUserProfile(){
-    return this.http.get(environment.apiBaseURL + '/userprofile')
+    return this.http.get(environment.apiBaseURL + '/AppUser/UserProfile')
   }
 }
