@@ -1,0 +1,6 @@
+22:53 2025. 06. 15.
+---
+> AppUserDTO
+> DTOMapper
+> ActionResult
+> remove minimal APIs
