@@ -7,8 +7,8 @@ namespace BackgammonApp.Extensions
     public static class EFCoreExtensions
     {
         public static IServiceCollection InjectDbContext(
-    this IServiceCollection services,
-    IConfiguration config)
+            this IServiceCollection services,
+            IConfiguration config)
         {
             var baseConnectionString = config.GetConnectionString("ApplicationDbContext");
             var dbPassword = Environment.GetEnvironmentVariable("DB_PASSWORD");
