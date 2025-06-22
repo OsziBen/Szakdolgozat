@@ -1,5 +1,3 @@
-using BackgammonApp.Data;
-using BackgammonApp.Endpoints_temp_;
 using BackgammonApp.Extensions;
 using BackgammonApp.Hubs;
 using BackgammonApp.Interfaces.Repositories;
@@ -8,8 +6,7 @@ using BackgammonApp.Models.User;
 using BackgammonApp.Repositories;
 using BackgammonApp.Services;
 using Microsoft.AspNetCore.Http.Connections;
-using Microsoft.EntityFrameworkCore;
-using Npgsql;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -59,9 +56,5 @@ app.MapGroup("/api")
 app.MapGroup("/api")
    .MapIdentityApi<AppUser>();
 
-app.MapGroup("/api")
-   /*.MapIdentityUserEndpoints()*/
-   /*.MapAccountEndpoints()*/
-   /*.MapAuthorizationEndpoints()*/;
 
 app.Run();
